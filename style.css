@@ -1,0 +1,81 @@
+.container {
+    width: 100%; height: 100%;
+    display: grid;
+    gap: 10px;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+  
+.centered-div{
+    width: 100%; height: 100%;
+    text-align: center;
+    background-color: rgba(128, 128, 133, 0.685);
+    overflow: hidden;
+}
+
+button{
+    position: relative;
+    width: 100%; height: 100%;
+    border: 1000; margin: 0;
+    background-color: rgba(197, 189, 189, 0.877);
+    cursor: pointer;
+}
+
+img{
+
+    width: 80%;
+    height: 80%;
+    margin-top: 7%;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(31, 28, 28);
+}
+
+.disabled-button {
+    pointer-events: none;
+    opacity: 0;
+    cursor: not-allowed;
+}
+
+.enable-button {
+  pointer-events: all;
+  opacity: 1;
+  cursor: pointer;
+}
+  
+.containerGrid{
+  display: grid;
+  height: 100hv;
+  place-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-left: 3rem;margin-right: 3rem;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.mainFont{
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.btnResult{
+  width: 20%;
+  margin-left: auto;margin-right: auto;
+  margin-top: 3%;
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 41, 41);
+}
+
+
+  
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="resultText" class="mainFont">TIC TAC TOE</h1>
+
+    <div class="containerGrid">
+        <div>
+            <h1 class="mainFont">PLAYER</h1>
+            <h1 id="playerScore" class="mainFont">0</h1>
+        </div>
+
+        <div class="container">
+            <!-- 1 -->
+            <div class="centered-div">
+              <button id="btn1" onclick="play('btn1')">x</button>
+              <img  id="btn1img" src="img/none.png" alt="">
+            </div>
+            <!-- 2 -->
+            <div  class="centered-div">
+                <button id="btn2" onclick="play('btn2')">x</button>
+                <img id="btn2img" src="img/none.png" alt="">
+            </div>
+            <!-- 3 -->
+            <div  class="centered-div">
+                <button id="btn3" onclick="play('btn3')">x</button>
+                <img id="btn3img" src="img/none.png" alt="">
+            </div>
+            <!-- 4 -->
+            <div  class="centered-div">
+                <button id="btn4" onclick="play('btn4')">x</button>
+                <img id="btn4img" src="img/none.png" alt="">
+            </div>
+            <!-- 5 -->
+            <div  class="centered-div">
+                <button id="btn5" onclick="play('btn5')">x</button>
+                <img id="btn5img" src="img/none.png" alt="">
+            </div>
+            <!-- 6 -->
+            <div  class="centered-div">
+                <button id="btn6" onclick="play('btn6')">x</button>
+                <img id="btn6img" src="img/none.png" alt="">
+            </div>
+            <!-- 7 -->
+            <div  class="centered-div">
+                <button id="btn7" onclick="play('btn7')">x</button>
+                <img id="btn7img" src="img/none.png" alt="">
+            </div>
+            <!-- 8 -->
+            <div  class="centered-div">
+               <button id="btn8" onclick="play('btn8')">x</button>
+               <img id="btn8img" src="img/none.png" alt="">
+            <!-- 9 -->
+            </div>
+            <div  class="centered-div">
+               <button id="btn9" onclick="play('btn9')">x</button>
+               <img id="btn9img" src="img/none.png" alt="">
+            </div>
+        </div>
+    
+        <div>
+            <h1 class="mainFont">BOT</h1>
+            <h1 id="botScore" class="mainFont">0</h1>
+        </div>
+
+    </div>
+
+    <button class="btnResult" id="btnResult" onclick="reset()">Play</button>
+
+    <br>
+    <p class="mainFont"><a style="color: aliceblue; text-decoration: none;"  href="https://github.com/kurogamiiiya">@KUROGAMIIIYA</a></p>
+
+
+      
+    <script src="script.js"></script>
+</body>
+</html>
